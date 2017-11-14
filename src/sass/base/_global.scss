@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+body {
+    color: #5d5d58;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    @include transition-all(.5s);
+}
+
+span {
+    width: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    outline: none;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    padding: 0;
+}

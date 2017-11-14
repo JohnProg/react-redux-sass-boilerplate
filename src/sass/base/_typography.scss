@@ -1,0 +1,40 @@
+html {
+    font-size: 14px;
+}
+
+html,
+body {
+    font-family: Arial;
+}
+
+// Header Styles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.57143rem;
+}
+
+h2 {
+    font-size: 2.14286rem;
+}
+
+// Text Styles
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

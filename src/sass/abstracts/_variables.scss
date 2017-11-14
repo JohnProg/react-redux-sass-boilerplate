@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+// Dimentions
+$mobile: '(max-width: 500px)';
+$tablet: '(max-width: 768px)';
+$laptop-small: '(max-width: 992px)';
+$laptop: '(max-width: 1024px)';
+$desktop-small: '(max-width: 1200px)';
+$desktop: '(max-width: 1441px)';
+
+// Colors
+$black-color: #000000;
+$white-color: #ffffff;
+
+// Fonts
+$fontType  : 'font-type';
+
+// Font Sizing
+$baseFontSize      : 16px;
+
+// Spacing
+$pad : 1em;
+
+// Breakpoints
+$smallBreakpoint : 600px;
+$largeBreakpoint : 1080px;

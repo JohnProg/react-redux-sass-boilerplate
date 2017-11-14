@@ -1,0 +1,62 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+@mixin mobile {
+    @media #{$mobile} {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media #{$tablet} {
+        @content;
+    }
+}
+
+@mixin laptop-small {
+    @media #{$laptop-small} {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media #{$laptop} {
+        @content;
+    }
+}
+
+@mixin desktop-small {
+    @media #{$desktop-small} {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media #{$desktop} {
+        @content;
+    }
+}
+
+@mixin break($width) {
+    @media (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin button($bg-color, $bg-color-hover) {
+    color: $white-color;
+    border-color: $bg-color;
+    background-color: $bg-color;
+    &:hover {
+        border-color: $bg-color-hover;
+        background-color: $bg-color-hover;
+    }
+}
+
+@mixin transition-all($time:.5s){
+	-webkit-transition: all $time ease-in-out;
+	-moz-transition: all $time ease-in-out;
+	-ms-transition: all $time ease-in-out;
+	-o-transition: all $time ease-in-out;
+	transition: all $time ease-in-out;
+}
